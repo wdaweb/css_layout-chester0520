@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homrwork</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(0deg, rgba(151, 151, 151, 0.8) 15%,white 20%);
+        }
+
+        .container {
+            width: 1408px;
+            height: 650px;
+            background: white;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+            font-size: 0;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);  
+        }
+
+        /* 四個頁籤 */
+        .box {
+            width: 350px;
+            height: 650px;
+            background: white;
+            border:1px solid rgb(223, 223, 223);
+            display: inline-block;
+            font-size: 22px;
+            margin: 0;
+            position: relative;
+            /* 倒影 */
+            -webkit-box-reflect: below -10px linear-gradient(transparent,rgba(0, 0, 0, 0.1));
+            transition: 1s;
+        } 
+
+        /* 圓形圖片 */
+        .circle {
+            width: 150px;
+            height: 150px;
+            margin: 50px 0px 50px 0px;
+            background-image: url("https://picsum.photos/100/100/?random=1");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        .bg{
+            background: linear-gradient(270deg, rgba(151, 151, 151, 0.2) 5%,white 10%);
+        }
+
+        /* 文字 */
+        p {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .box:hover {     
+            bottom:100px;
+        }
+
+        .circle:hover {
+            width: 250px;
+            height: 250px;
+            margin: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">    
+        <div class="box bg">
+            <div class="circle"></div>
+            <p>原因工商留言板基礎採取睡覺我又國內留學目錄程式夥伴引擎，推廣創業東京高雄雙手領域較大圖象暫時最初，本站老婆關西，女子手上組成房地產記錄一道。推廣創業東京高雄雙手領域較大圖象暫時最初。 </p>
+        </div>
+        <div class="box bg">
+            <div class="circle"></div>
+            <p>原因工商留言板基礎採取睡覺我又國內留學目錄程式夥伴引擎，推廣創業東京高雄雙手領域較大圖象暫時最初，本站老婆關西，女子手上組成房地產記錄一道。推廣創業東京高雄雙手領域較大圖象暫時最初。 </p>
+        </div>
+         <div class="box bg">
+            <div class="circle"></div>
+            <p>原因工商留言板基礎採取睡覺我又國內留學目錄程式夥伴引擎，推廣創業東京高雄雙手領域較大圖象暫時最初，本站老婆關西，女子手上組成房地產記錄一道。推廣創業東京高雄雙手領域較大圖象暫時最初。 </p>
+        </div>
+        <div class="box">
+            <div class="circle"></div>
+            <p>原因工商留言板基礎採取睡覺我又國內留學目錄程式夥伴引擎，推廣創業東京高雄雙手領域較大圖象暫時最初，本站老婆關西，女子手上組成房地產記錄一道。推廣創業東京高雄雙手領域較大圖象暫時最初。 </p>
+        </div>        
+    </div>
+</body>
+
+</html>
